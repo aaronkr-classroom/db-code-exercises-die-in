@@ -10,7 +10,6 @@
 *.ndf
 
 # --- SQL Dumps & Backups ---
-*.sql
 *.bak
 *.backup
 *.csv
