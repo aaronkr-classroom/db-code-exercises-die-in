@@ -15,7 +15,7 @@
 ![Diagram](../resources/w2-diagram.png)
 
 # SQL
-[click here](../code/week2.sql)
+[click here](../code/chp2/week2.sql)
 
 # 개념퍼즐
 1. 개념적모델링
