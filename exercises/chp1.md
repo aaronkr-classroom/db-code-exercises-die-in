@@ -11,7 +11,7 @@
 
 
 - 7 외부 스키마와 개념 스키마 간의 대응 관계를 정의한 것으로， 외부/개념 매핑이라고도 부름
-- A: Schema Mapping
+- A: Application Interface
  
 
 - 10 DB에 저장된 모든 객체에 대한 정의나 명세에 대한 정보를 수록해서 관리하는 시스템
@@ -40,7 +40,7 @@
 
 
 - 6 DB의 구조와 제약조건을 기술한 DB의 논리적 정의
-- A: Logical Data Definition
+- A: Schema
 
 
 - 8 DBMS의 기능적 구성 요소 중 일반 시용자가 입력한 질의문을 처리히는 프로그램
@@ -112,4 +112,4 @@
 > 답: 1 - c, 2 - a, 3 - d, 4 - b
 
 12. DB에 저장된 모든 객체에 대한 정의definition나 명세specification에 대한 정보를 수록해서 관리하는 시스템은 무엇인가?
-> 답: Catalog
+> 답: System Catalog
