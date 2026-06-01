@@ -99,3 +99,14 @@ CREATE INDEX idx_members2_name ON members2 (name);
 
 -- RE-EXPLAIN
 EXPLAIN ANALYZE SELECT * FROM members2 WHERE name = '홍길동'; -- Planning Time 0.06ms, Execution Time 0.03ms with INDEX
+
+-- VIEW 추가
+CREATE VIEW registration_view AS
+    SELECT m.name AS 회원명,
+           c.class_name AS 강좌명,
+           r.register_date AS 신청일
+    FROM registrations r
+    JOIN members m ON r.member_id = m.member_id
+    JOIN classes c ON r.class_id = c.class_id;
+
+SELECT * FROM registration_view;
